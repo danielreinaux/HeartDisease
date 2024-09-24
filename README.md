@@ -2,11 +2,13 @@
 
 ## 1. Análise de Dados
 
-Essa é a primeira parte do nosso processo de Classificação do dataset Heart Disease. A Análise de Dados é uma parte fundamental para o processo, pois nos permite entender profundamente o comportamento das variáveis e suas relações com a variável-alvo, no caso, a presença ou ausência de doença cardíaca.
+Essa é a primeira parte do nosso processo de classificação do dataset Heart Disease. A análise de dados é uma etapa crucial, pois nos permite compreender o comportamento das variáveis e suas relações com a variável-alvo, a presença ou ausência de doença cardíaca.
 
-Durante essa etapa, realizamos uma análise dimensional, onde exploramos a distribuição individual de alguma das variáveis, tanto numéricas quanto categóricas, identificando possiveis outliers, padrões e divisões da feature. Também foram feitas análises bidimensionais para observar as interações entre diferentes variáveis, buscando possíveis correlações ou associações que possam influenciar o risco de doença cardíaca.
+Realizamos uma análise unidimensional, explorando a distribuição das variáveis numéricas e categóricas, identificando possíveis outliers e padrões de comportamento. Em seguida, partimos para análises bidimensionais, observando interações entre diferentes variáveis e suas correlações, especialmente em relação ao target (doença ou não).
 
-Além disso, focamos nas relações com o target, comparando variáveis preditoras como idade, colesterol, pressão arterial, entre outras, com a variável target. Essas comparações são essenciais para destacar quais fatores parecem estar mais fortemente relacionados à presença da doença.
+Além disso, focamos nas variáveis preditoras como idade, colesterol, pressão arterial, frequência cardíaca máxima, entre outras, comparando-as com o target. Essas comparações foram essenciais para identificar quais fatores parecem estar mais fortemente relacionados à presença da doença.
+
+Para realizar essas análises, utilizamos ferramentas como Matplotlib, Seaborn e Plotly para criar diversas visualizações, incluindo subplots, boxplots e heatmaps. Esses gráficos nos ajudaram a interpretar as correlações e identificar as variáveis mais relevantes no processo de classificação.
 
 
 ### 1.1 Compreensão e Entendimento dos Dados:
