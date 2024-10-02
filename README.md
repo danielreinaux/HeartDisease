@@ -59,8 +59,45 @@ O caso abaixo foi feita uma função para relacionar algumas colunas numéricas 
 ### 1.4 Análise Multidimensional:
 ![image](https://github.com/user-attachments/assets/150c0469-9081-401e-ba62-ee1ecfab9e21)
 
+## 2. Modelagem de Dados e Análise de Resultados
+
+Após a análise exploratória e pré-processamento dos dados, partimos para a modelagem de Machine Learning com foco na previsão de doenças cardíacas. O objetivo é utilizar diversos algoritmos para prever a presença ou ausência da doença com base nas variáveis preditoras.
+
+### 2.1 Data Preparation (DataPrep)
+
+Nesta etapa, realizamos a normalização dos dados numéricos utilizando o StandardScaler, garantindo que todas as variáveis preditoras tivessem a mesma escala. Isso é importante, especialmente para algoritmos como Gradient Boosting, que é sensível a variáveis em diferentes escalas
+
+Divisão de dados: Dividimos nosso dataset em conjunto de treino e teste na proporção de 70/30, utilizando train_test_split.
+Normalização: As variáveis numéricas foram normalizadas separadamente para treino e teste, para evitar qualquer tipo de data leakage.
+
+### 2.2 Algoritmos testados
+
+2.2 Algoritmos Testados
+Foram utilizados cinco algoritmos principais para o problema de Heart Disease:
+
+Regressão Logística
+Árvores de Decisão
+Random Forest
+Gradient Boosting
+
+### 2.3 Avaliação de Modelos
+Foram utilizadas várias métricas para avaliar os modelos, com foco em:
+
+Acurácia
+Recall
+Precision
+AUC (Área sob a Curva ROC)
 
 
+Seguem abaixo algumas métricas usadas e seus gráficos:
+
+#### 2.3.1 Matriz de Confusão na Árvore de decisão:
+
+![image](https://github.com/user-attachments/assets/50e07a6d-11a9-487d-a954-a9f1ffd0dc0b)
+
+#### 2.4.1 Curva-ROC na Regressão Logística:
+
+![image](https://github.com/user-attachments/assets/78769a5f-008c-4d01-8b9d-3d68182bb421)
 
 
 
